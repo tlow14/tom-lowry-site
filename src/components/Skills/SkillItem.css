@@ -1,0 +1,41 @@
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .skill-info {
+    display: flex;
+    align-items: center;
+    width: 150px; /* Adjust as needed */
+  }
+  
+  .skill-logo {
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    margin-right: 5px;
+  }
+  
+  .skill-bar-container {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 10px; /* Adjust as needed */
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .skill-bar {
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    color: white;
+    font-size: 0.8em;
+  }
+  
+  .skill-level {
+    margin-left: auto;
+    padding-right: 5px;
+  }

@@ -1,0 +1,57 @@
+/* Basic reset to ensure consistent styling */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: sans-serif; /* You can choose a different font */
+  line-height: 1.5;
+  background-color: #f4f4f4; /* Light background */
+  color: #333; /* Dark text */
+}
+
+.app-container {
+  max-width: 960px; /* Adjust as needed for your desired width */
+  margin: 40px auto; /* Center the content with some top/bottom margin */
+  padding: 20px;
+  background-color: #fff; /* White container background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 8px; /* Optional rounded corners */
+}
+
+.main-header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+}
+
+.main-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.main-header p {
+  font-size: 1.1em;
+  color: #777;
+}
+
+.main-content {
+  /* Styles for the main content area */
+  padding: 20px 0;
+}
+
+.main-footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  margin-top: 30px;
+  color: #777;
+  font-size: 0.9em;
+}
